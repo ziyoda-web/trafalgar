@@ -1,0 +1,219 @@
+/* navbar */
+.navbar h1{
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.nav-link a{
+    font-family: 'Mulish';
+    font-weight: 400;
+    line-height: 23px;
+    color: rgb(1, 1, 1);
+    font-size: 18px;
+}
+/* header */
+.header-text h2{
+    max-width: 426px;
+    font-family: 'Mulish';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.header-text p{
+    max-width: 445px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-family: 'Mulish';
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgba(125, 121, 135, 1);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.bttn{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 3px 41px;
+    color:#fff;
+    background: rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    border: 1px solid black;
+}
+/* servis */
+.servis h2{
+    font-size: 36px;
+}
+.servis p{
+    max-width: 850px;
+    font-size: 18px;
+}
+.servis-text h3{
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 0 30px;
+    line-height: 56px;
+}
+.servis-text p{
+    max-width: 260px;
+    font-family: 'Mulish';
+    color: rgba(125, 121, 135, 1);
+    font-size: 16px;
+    padding: 0 0 0 30px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.servis .col-4{
+    width: 340px;
+    height: 320px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+.servis img{
+    padding: 40px 250px 0 30px;
+}
+.button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid rgba(69, 143, 246, 1);
+    font-family: 'Mulish';
+    background: #fff;
+    padding: 0 0 30px 0;
+    color: rgba(69, 143, 246, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+/* soglom */
+.soglom{
+    margin-top: 200px;
+}
+.soglom .servis {
+    margin-left: 100px;
+}
+.soglom p{
+    max-width: 370px;
+}
+/* download */
+.download h2{
+    width: 230px;
+}
+.download .servis  p{
+    width: 330px;
+}
+/* customer */
+.customer{
+    width: 1120px;
+    min-height: 425px;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+.customer h2{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Mulish';
+    padding-top: 60px;
+    font-size: 36px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.customer img{
+    border-radius: 100px;
+    margin-left: 100px;
+    border: 6px solid white;
+}
+.customer h5{
+    font-family: 'Mulish';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    color: aliceblue;
+}
+.customer p{
+    font-family: 'Mulish';
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 400;
+}
+.customer .mt-4{
+    max-width: 360px;
+}
+/* latest */
+.latest{
+    margin-top: 200px;
+}
+.latest .col-4{
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: rgba(255, 255, 255, 1);
+}
+.latest .col-4 img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transform: translateX(-12px);
+}
+.latest h3{
+    padding: 24px 36px;
+    line-height: 32px;
+}
+.latest p{
+    margin-top: -20px;
+    margin-left: 8px;
+}
+legend{
+    font-family: 'Mulish';
+    color: rgba(64, 137, 237, 1);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 36px;
+    line-height: 28px;
+}
+/* footer */
+footer{
+    margin-top: 200px;
+    max-width: 1510px;
+    min-height: 432px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer{
+    padding-top: 100px;
+}
+.footer-text{
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    max-width: 335px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-text h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;   
+}
+.footer h4{
+    font-family: 'Mulish';
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 40px;
+}
+.footer p{
+    font-family: 'Mulish';
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+}
